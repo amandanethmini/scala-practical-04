@@ -23,7 +23,7 @@ object practical4_3 {
       formatNames(n2)(name =>
         name.substring(0, 2).toUpperCase + name.substring(2)
       )
-    ) // Output: NIroshan
+    ) 
     println(formatNames(n3)(toLower))
     println(
       formatNames(n4)(name =>
@@ -31,6 +31,6 @@ object practical4_3 {
           .substring(1, 5)
           .toLowerCase + name.substring(5).toUpperCase
       )
-    ) // Output: KumarA
+    ) 
   }
 }
